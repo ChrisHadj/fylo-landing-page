@@ -1,0 +1,60 @@
+body {
+  box-sizing: border-box;
+  overflow-x:hidden
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+
+}
+
+.input__mail {
+  border: solid 1px #000;
+}
+
+.bg__gray {
+  background-color: #f6f6ff;
+}
+
+.text__hover:hover {
+  color: hsl(170, 58%, 55%);
+  cursor: pointer;
+}
+
+
+
+.img_border {
+  border-radius: 50%;
+}
+
+.curve_padd {
+  padding-bottom: -3px;
+}
+
+
+
+.logo_footer:hover {
+  fill: orange;
+  cursor: pointer;
+}
+
+.logo_svg {
+  padding-left: 4rem;
+  padding-top: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+  .early-access_container {
+    
+  }
+}
